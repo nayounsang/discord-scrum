@@ -125,3 +125,5 @@ client.once("clientReady", async () => {
 });
 
 client.login(DISCORD_TOKEN);
+
+module.exports = client;
